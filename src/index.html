@@ -21,8 +21,8 @@ eleventyNavigation:
     Your browser does not support the video tag.
   </video>
   <div class="cs-overlay"></div>
-  <div class="cs-container">
-    <div class="cs-flex-group">
+  <div class="cs-container fx fade-in">
+    <div class="cs-flex-group fx slide-top staggered-m" style="--i:1">
       <span class="cs-topper">Michigan’s Trusted Construction Experts</span>
       <h1 class="cs-title">Home Additions, Renovations & Pole Barns Built to Last</h1>
       <p class="cs-text">
@@ -41,7 +41,7 @@ eleventyNavigation:
 </section>
 
 <section id="services" class="services">
-  <div class="card">
+  <div class="card fx slide-top staggered-m" style="--i:1">
     <picture>
       <img aria-hidden="true" decoding="async" src="/assets/svgs/service1.svg" alt="addition icon" width="48"
         height="48" />
@@ -49,7 +49,7 @@ eleventyNavigation:
     <h2>Home Additions</h2>
     <p>Expand your living space with custom home additions designed for comfort, function, and long-term value.</p>
   </div>
-  <div class="card">
+  <div class="card fx slide-top staggered-m" style="--i:2">
     <picture>
       <img aria-hidden="true" decoding="async" src="/assets/svgs/service2.svg" alt="renovation icon" width="48"
         height="48" />
@@ -57,7 +57,7 @@ eleventyNavigation:
     <h2>Interior & Exterior Renovations</h2>
     <p>From kitchen remodels to exterior facelifts, we revitalize homes with clean, high-standard construction.</p>
   </div>
-  <div class="card">
+  <div class="card fx slide-top staggered-m" style="--i:3">
     <picture>
       <img aria-hidden="true" decoding="async" src="/assets/svgs/service3.svg" alt="pole barn icon" width="48"
         height="48" />
@@ -68,12 +68,12 @@ eleventyNavigation:
 </section>
 
 <section id="sbs">
-  <div class="cs-container">
-    <div class="cs-left">
+  <div class="cs-container fx fade-in">
+    <div class="cs-left fx slide-top staggered-m" style="--i:1">
       {% image './src/images/aboutimg1.png', 'construction team at work', 'cs-picture cs-picture1', 'lazy'%}
       {% image './src/images/aboutimg2a.jpg', 'renovation project', 'cs-picture cs-picture2', 'lazy'%}
     </div>
-    <div class="cs-right">
+    <div class="cs-right fx slide-top staggered-m" style="--i:2">
       <span class="cs-topper">About Us</span>
       <h2 class="cs-title">Over 29 Years of Construction Excellence</h2>
       <p class="cs-text">
@@ -100,12 +100,12 @@ eleventyNavigation:
 </section>
 
 <section id="sbs-r">
-  <div class="cs-container">
-    <div class="cs-left">
+  <div class="cs-container fx fade-in">
+    <div class="cs-left fx slide-top staggered-m" style="--i:1">
       {% image './src/images/featuredimg2.png', 'residential construction project', 'cs-picture cs-picture1', 'lazy'%}
       {% image './src/images/featuredimg1.png', 'kitchen remodel', 'cs-picture cs-picture2', 'lazy'%}
     </div>
-    <div class="cs-right">
+    <div class="cs-right fx slide-top staggered-m" style="--i:2">
       <span class="cs-topper">Additional Services</span>
       <h2 class="cs-title">General Contracting, Windows, Siding & More</h2>
       <p class="cs-text">
@@ -128,7 +128,7 @@ eleventyNavigation:
 <!-- ============================================ -->
 
 <section id="reviews">
-  <div class="cs-container">
+  <div class="cs-container fx fade-in">
     <span class="cs-topper">Our Reviews</span>
     <h2 class="cs-title">Words From Our Customers</h2>
     <p class="cs-text">
@@ -138,9 +138,9 @@ eleventyNavigation:
       value the professionalism, attention to detail, and care that define the Downs Construction experience.
 
     </p>
-    <ul class="cs-card-group">
+    <ul class="cs-card-group fx slide-top staggered-m" style="--i:1">
       <!-- Review 1 -->
-      <li class="cs-item">
+      <li class="cs-item fx slide-top staggered-m" style="--i:1">
         <!-- <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async"
           src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile5.png" alt="profile picture" width="80"
           height="80" /> -->
@@ -156,7 +156,7 @@ eleventyNavigation:
           src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg" alt="stars" width="96" height="16" />
       </li>
       <!-- Review 2 -->
-      <li class="cs-item">
+      <li class="cs-item fx slide-top staggered-m" style="--i:2">
         <!-- <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async"
           src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile-4.png" alt="profile picture" width="80"
           height="80" /> -->
@@ -173,20 +173,20 @@ eleventyNavigation:
           src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg" alt="stars" width="96" height="16" />
       </li>
     </ul>
-    <a aria-label="read more reviews" href="/reviews" class="button-solid">Read More</a>
+    <a aria-label="read more reviews" href="/reviews" class="button-solid fx slide-top staggered-m" style="--i:2">Read More</a>
   </div>
 </section>
 
 <section id="cta">
-  <div class="container">
-    <h2 class="title">
-      Let’s Build Something Great Together
+  <div class="container fx fade-in">
+    <h2 class="title fx slide-top staggered-m" style="--i:1">
+      Let's Build Something Great Together
     </h2>
-    <p>
+    <p class="fx slide-top staggered-m" style="--i:2">
       Have a vision for your home or property? Contact us today to schedule your free estimate and take the first step
       toward lasting quality.
     </p>
-    <a href="/contact" class="button-solid">Request a Free Estimate</a>
+    <a href="/contact" class="button-solid fx slide-top staggered-m" style="--i:3">Request a Free Estimate</a>
   </div>
   {% image './src/images/finalhomeimg.jpg', 'home renovation project', '', 'lazy', '(max-width: 400px) 400px,
   (max-width: 850px) 850px, 1920px'%}
