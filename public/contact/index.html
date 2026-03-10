@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Swap our for actual link-->
+        <link rel="canonical" href="https://www.website.com/contact/">
+
+        <meta name="description" content="Meta description for the page">
+        <meta name="keywords" content="">
+
+        <!--Social Media Display-->
+        <meta property="og:title" content="Downs Construction LLC"/>
+        <meta property="og:description" content="Meta description for the page"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://www.website.com/contact/"/>
+        <meta property="og:image" content="/images/social.jpg"/>
+        <meta property="og:image:secure_url" content="/images/social.jpg"/>
+
+        <!--Favicons-->
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/logo-light.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/logo-light.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/logo-light.png">
+        <link rel="manifest" href="/assets/favicons/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- Preload -->
+        <link rel="preload" as="image" href="/assets/logo-light.png">
+        <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-v29-latin-regular.woff2" crossorigin>
+        <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-v29-latin-700.woff2" crossorigin>
+
+        <link rel="stylesheet" href="/css/root.css">
+        <link rel="stylesheet" href="/css/dark.css">
+
+        <link rel="preload" as="image" href="/images/cabinets2-1920w.webp"/>
+
+        <!-- Loading in page specific CSS sheets from css block -->
+    <link rel="stylesheet" href="/css/critical.css"/>
+    <link rel="stylesheet" href="/css/animations.css">
+        <link rel="stylesheet" href="/css/contact.css">
+
+        <!--Put analytics tag here at the bottom to prevent it from render blocking-->
+
+        <!-- For home page, use full title, including location for SEO. Other pages should just include the page name -->
+        <title>
+            
+                Contact Us | Downs Construction LLC
+            
+        </title>
+    </head>
+    <body>
+        <!--Screen reader skip main nav-->
+        <a class="skip" aria-label="skip to main content" href="#main">Click To Skip To Main Content</a>
+        <script defer src="/assets/js/animations.js"></script>
+
+
+        <!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+
+<div id="navigation">
+    <div aria-hidden="true" class="background-color-div">
+        <!--This div is used to overcome a z-index issue where the open
+            #navbar-menu is on top of the #navigation. This bar places itself 
+            the #navbar-menu so that menu appears behind the #navigation
+        -->
+    </div>
+    <div class="container">
+        <!--Logo - Get SVGs if you can.  I use fiverr to get png's turned into SVGs. Highly recommend it, worth the $20 - get a light and dark version-->
+        <a class="logo" aria-label="click to go to home page" href="/">
+            <!--Light Colored Logo, remove .dark image tag and the .light class if you don't have a dark and light version -->
+            <img class="light" aria-hidden="true" src="/assets/images/logo-light.png" decoding="async" alt="logo">
+
+            <!--Dark Colored Logo-->
+            <img class="dark" aria-hidden="true" src="/assets/images/logo-blue.png" decoding="async" loading="lazy" alt="logo">
+        </a>
+
+        <!--Mobile Nav toggle-->
+        <button class="hamburger-menu" aria-expanded="false" aria-controls="navbar-menu">
+            <!-- <span class="visually-hidden">Menu</span> -->
+            <span aria-hidden="true"></span>
+        </button>
+
+        <!--Main Nav-->
+<nav id="navbar-menu" aria-label="main navigation">
+    <ul>
+            <li class="" id="Home" >
+                
+                    <a 
+                        
+                        href="/"
+                    >
+                        Home
+                    </a>
+                
+            </li>
+            <li class="dropdown" id="Services" >
+                
+                    <a class="dropdown-toggle" role="button" tabindex="0">
+                        Services
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/renovations/">Interior and Exterior Renovations</a></li>
+                        <li><a href="/pole-barns/">Pole Barns</a></li>
+                        <li><a href="/additions/">Additions</a></li>
+                        <li><a href="/general-contracting/">General Contracting</a></li>
+                    </ul>
+                
+            </li>
+            <li class="" id="About Us" >
+                
+                    <a 
+                        
+                        href="/about/"
+                    >
+                        About Us
+                    </a>
+                
+            </li>
+            <li class="" id="Contact" >
+                
+                    <a 
+                         class="active" 
+                        href="/contact/"
+                    >
+                        Contact
+                    </a>
+                
+            </li>
+    </ul>
+</nav>
+
+        <!--Dark Mode toggle-->
+        <button id="dark-mode-toggle">
+            <!--Moon is an inline SVG so you can edit the color if needed-->
+            <svg class="moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+            <img class="sun" aria-hidden="true" src="/assets/svgs/sun.svg" decoding="async" alt="sun" width="15" height="15">
+        </button>
+    </div>
+</div>
+        <main id="main">
+<!-- ============================================ -->
+<!--                    LANDING                   -->
+<!-- ============================================ -->
+<section id="int-hero">
+  <h1 id="home-h" class="fx fade-in">Contact Us</h1>
+  <picture class="">
+      <source type="image/webp" srcset="/images/bannerimg-200w.webp 200w, /images/bannerimg-400w.webp 400w, /images/bannerimg-850w.webp 850w, /images/bannerimg-1920w.webp 1920w, /images/bannerimg-2500w.webp 2500w" sizes="(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px">
+  <source type="image/jpeg" srcset="/images/bannerimg-200w.jpeg 200w, /images/bannerimg-400w.jpeg 400w, /images/bannerimg-850w.jpeg 850w, /images/bannerimg-1920w.jpeg 1920w, /images/bannerimg-2500w.jpeg 2500w" sizes="(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px">
+      <img
+        src="/images/bannerimg-200w.jpeg"
+        width="2500"
+        height="1875"
+        alt="cabinets"
+        loading="lazy"
+        decoding="async">
+    </picture>
+</section>
+
+<!-- ============================================ -->
+<!--                Contact Form                  -->
+<!-- ============================================ -->
+<section id="cs-contact-242">
+  <div class="cs-container fx fade-in">
+    <div class="cs-content fx slide-top staggered-m" style="--i:1">
+      <span class="cs-topper">Here To Help</span>
+      <h2 class="cs-title">Contact Us</h2>
+      <p class="cs-text">
+        Whether you're ready to start your next project or just have a few questions, we're here to help.
+      </p>
+    </div>
+
+    <!-- Form -->
+    <form class="fx slide-top staggered-m" style="--i:2"
+      id="cs-form-242"
+      name="contact-form"
+      method="POST"
+      action="https://submit-form.com/lx0yBAVw8"
+      novalidate
+    >
+      <!-- Subject for notification emails -->
+      <input type="hidden" name="_subject" value="New Contact — Downs Construction LLC" />
+      <!-- Identify site/source in Formspark dashboard -->
+      <input type="hidden" name="site" value="downsconstructionllc.com" />
+
+      <!-- Honeypot (spam trap) - kept out of view & autofill -->
+      <div aria-hidden="true" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden;">
+        <input type="text" name="_honeypot" tabindex="-1" autocomplete="new-password" inputmode="none" />
+      </div>
+
+      <label class="cs-label">
+        Name
+        <input class="cs-input" required type="text" id="name-242" name="name" placeholder="John/Jane Doe" />
+      </label>
+
+      <label class="cs-label">
+        Email
+        <input class="cs-input" required type="email" id="email-242" name="email" placeholder="name@company.com" />
+      </label>
+
+      <label class="cs-label">
+        Phone
+        <input class="cs-input" required type="text" id="phone-242" name="phone" placeholder="+1 (269) 987-6543" />
+      </label>
+
+      <label class="cs-label">
+        How Did You Find Us
+        <input class="cs-input" type="text" id="find-242" name="find_us" placeholder="Social Media, Family, Friend..." />
+      </label>
+
+      <label class="cs-label cs-label-message">
+        Message
+        <textarea class="cs-input cs-textarea" required id="message-242" name="message" placeholder="Hello, I’m interested in..."></textarea>
+      </label>
+
+      <button class="cs-button-solid cs-submit" type="submit">Submit Message Now</button>
+    </form>
+
+    <!-- Contact Info -->
+    <div class="cs-right-section fx slide-top staggered-m" style="--i:3">
+      <ul class="cs-ul">
+        <li class="cs-li">
+          <picture class="cs-icon-wrapper">
+            <img aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/mail.svg" alt="mail icon" class="cs-icon" width="36" height="36" decoding="async">
+          </picture>
+          <div class="cs-flex-group">
+            <span class="cs-header">Email</span>
+            <a href="mailto:downsconstructionllc@gmail.com" class="cs-link">downsconstructionllc@gmail.com</a>
+          </div>
+        </li>
+        <li class="cs-li">
+          <picture class="cs-icon-wrapper">
+            <img aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/phone.svg" alt="phone icon" class="cs-icon" width="36" height="36" decoding="async">
+          </picture>
+          <div class="cs-flex-group">
+            <span class="cs-header">Phone</span>
+            <a href="tel:269-599-4913" class="cs-link">(269) 599-4913</a>
+          </div>
+        </li>
+        <li class="cs-li">
+          <picture class="cs-icon-wrapper">
+            <img aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/pin.svg" alt="address icon" class="cs-icon" width="36" height="36" decoding="async">
+          </picture>
+          <div class="cs-flex-group">
+            <span class="cs-header">Location</span>
+            <a class="cs-link">Battle Creek, MI</a>
+          </div>
+        </li>
+      </ul>
+
+      <!-- Map image -->
+      <picture class="cs-picture">
+        <source media="(max-width: 600px)" srcset="/images/newleafmap.png">
+        <source media="(min-width: 601px)" srcset="/images/newleafmap.png">
+        <img class="cs-img" aria-hidden="true" loading="lazy" decoding="async" src="/images/newleafmap.png" alt="google map" width="462" height="438">
+      </picture>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== Popup ===================== -->
+<div id="form-popup" class="fp-hidden" role="dialog" aria-modal="true" aria-live="assertive" aria-labelledby="fp-title">
+  <div class="fp-card" id="fp-card" tabindex="-1" role="document">
+    <div class="fp-icon" id="fp-icon" aria-hidden="true">
+      <!-- default icon is success check; JS swaps for error when needed -->
+      <svg viewBox="0 0 24 24" width="28" height="28">
+        <path d="M20 6L9 17l-5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+    </div>
+    <h3 id="fp-title" class="fp-title">Success</h3>
+    <p id="fp-msg" class="fp-msg">Your message has been sent.</p>
+    <button type="button" class="fp-close" id="fp-close" aria-label="Close">OK</button>
+  </div>
+</div>
+
+<style>
+  /* Popup overlay */
+  #form-popup.fp-hidden { display: none; }
+  #form-popup {
+    position: fixed; inset: 0; z-index: 9999;
+    background: rgba(0,0,0,0.55);
+    display: grid; place-items: center;
+  }
+  /* Card */
+  .fp-card {
+    width: min(92vw, 420px);
+    background: #fff; color: #111;
+    border-radius: 16px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+    padding: 20px 22px;
+    text-align: center;
+    outline: none;
+    animation: fp-pop 160ms ease-out;
+  }
+  @keyframes fp-pop { from { transform: scale(.96); opacity: .6 } to { transform: scale(1); opacity: 1 } }
+
+  .fp-icon {
+    width: 48px; height: 48px; margin: 6px auto 10px;
+    display: grid; place-items: center;
+    border-radius: 50%;
+    color: #fff; background: #16a34a; /* green success */
+  }
+  .fp-card.fp-error .fp-icon { background: #dc2626; } /* red error */
+
+  .fp-title { margin: 8px 0 4px; font-size: 1.15rem; font-weight: 700; }
+  .fp-msg { margin: 0 0 14px; font-size: .98rem; color: #444; }
+  .fp-close {
+    display: inline-block; border: 0; cursor: pointer;
+    background: #111; color: #fff; border-radius: 999px;
+    padding: 10px 16px; font-weight: 600;
+  }
+</style>
+
+<script>
+(() => {
+  const form = document.getElementById('cs-form-242');
+  const submitBtn = form.querySelector('.cs-submit');
+
+  const popup   = document.getElementById('form-popup');
+  const card    = document.getElementById('fp-card');
+  const iconEl  = document.getElementById('fp-icon');
+  const titleEl = document.getElementById('fp-title');
+  const msgEl   = document.getElementById('fp-msg');
+  const closeEl = document.getElementById('fp-close');
+
+  function showPopup({ ok = true, title, message }) {
+    // set variant + icon
+    card.classList.toggle('fp-error', !ok);
+    iconEl.innerHTML = ok
+      ? '<svg viewBox="0 0 24 24" width="28" height="28"><path d="M20 6L9 17l-5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+      : '<svg viewBox="0 0 24 24" width="28" height="28"><path d="M12 9v4m0 4h.01M12 3a9 9 0 100 18 9 9 0 000-18z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+
+    titleEl.textContent = title || (ok ? 'Success' : 'Submission failed');
+    msgEl.textContent   = message || (ok ? 'Thanks! Your message was sent.' : 'Please try again in a moment.');
+
+    popup.classList.remove('fp-hidden');
+    // focus for accessibility
+    setTimeout(() => card.focus(), 0);
+
+    // Auto-hide on success after 4s
+    if (ok) {
+      clearTimeout(showPopup._t);
+      showPopup._t = setTimeout(hidePopup, 4000);
+    }
+  }
+
+  function hidePopup() {
+    popup.classList.add('fp-hidden');
+  }
+
+  // Close interactions (button, ESC, click backdrop)
+  closeEl.addEventListener('click', hidePopup);
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !popup.classList.contains('fp-hidden')) hidePopup();
+  });
+  popup.addEventListener('click', (e) => {
+    if (e.target === popup) hidePopup(); // only clicks on backdrop
+  });
+  card.addEventListener('click', (e) => e.stopPropagation()); // keep clicks inside from closing
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    // Abort if honeypot filled (bots/autofill)
+    const hp = form.querySelector('[name="_honeypot"]');
+    if (hp && hp.value) {
+      showPopup({ ok:false, title:'Blocked as spam', message:'Please submit the form manually without autofill.' });
+      return;
+    }
+
+    // Basic front-end validation
+    if (!form.reportValidity()) return;
+
+    // Disable submit
+    submitBtn.disabled = true;
+    const originalText = submitBtn.textContent;
+    submitBtn.textContent = 'Sending…';
+
+try {
+  // Use URL-encoded payload (works great with Formspark)
+  const data = new URLSearchParams(new FormData(form));
+
+// ...after we build `data` and do the fetch:
+const res = await fetch(form.action, {
+  method: 'POST',
+  body: new URLSearchParams(new FormData(form)),
+  headers: { 'Accept': 'application/json' }
+});
+
+// Safely read response (may be empty JSON)
+let raw = '';
+try { raw = await res.text(); } catch (_) {}
+let payload = {};
+try { payload = raw ? JSON.parse(raw) : {}; } catch (_) {}
+
+// Formspark headers (sometimes more reliable than body)
+const fsStatus = (res.headers.get('Formspark-Status') || '').toLowerCase(); // "ok" | "empty" | ""
+const hasErrors = Boolean(payload.error || payload.errors);
+
+// ✅ Treat as success on any HTTP 200 **unless** Formspark says "empty" or we see errors
+const ok = res.ok && !hasErrors && fsStatus !== 'empty';
+
+console.log('FS status:', fsStatus, 'payload:', payload);
+
+if (ok) {
+  form.reset();
+  showPopup({ ok: true, title: 'Success', message: 'Thanks! Your message was sent.' });
+} else {
+  let errMsg = '';
+  if (hasErrors) {
+    if (Array.isArray(payload.errors)) {
+      errMsg = payload.errors.map(e => e?.message || String(e)).join(', ');
+    } else if (payload.error) {
+      errMsg = payload.error?.message || String(payload.error);
+    }
+  } else if (fsStatus === 'empty') {
+    errMsg = 'Submission was not recorded (check form ID/quota or honeypot).';
+  } else {
+    errMsg = `Server returned ${res.status}.`; // covers 200 with unknown/empty responses
+  }
+  showPopup({ ok: false, title: 'Submission failed', message: errMsg || 'Please try again.' });
+}
+
+} catch (err) {
+  showPopup({ ok: false, title: 'Network error', message: 'Please check your connection and try again.' });
+  console.error('Network error:', err);
+} finally {
+  submitBtn.disabled = false;
+  submitBtn.textContent = originalText;
+}
+
+
+  });
+})();
+</script>
+</main>
+        <!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+<footer id="footer">
+    <div class="container">
+        <div class="left-section">
+            <a class="logo" href="/"><img loading="lazy" decoding="async" src="/assets/images/logo-light.png" alt="logo" width="264" height="78"></a>
+        </div>
+        <div class="right-section">
+            <div class="lists">
+                <ul>
+                    <li>
+                        <h2>Information</h2>
+                    </li>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/about">About Us</a>
+                    </li>
+                    <!-- <li>
+                        <a href="/projects">Projects</a>
+                    </li> -->
+                    <!-- <li>
+                        <a href="/testimonials">Reviews</a>
+                    </li> -->
+                    <li>
+                        <a href="/contact">Contact</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h2>Services</h2>
+                    </li>
+                    <li>Interior and Exterior Renovations</li>
+                    <li>Pole Barns</li>
+                    <li>Additions</li>
+                    <li>General Contracting</li>
+                </ul>
+                <ul>
+                    <li>
+                        <h2>Contact</h2>
+                    </li>
+                    <li>
+                        <a href="/contact">Battle Creek, Mi</a>
+                    </li>
+                    <li>
+                        <a href="tel:269-599-4913">T: (269) 599-4913</a>
+                    </li>
+                    <li>
+                        <a href="mailto:downsconstructionllc@gmail.com">Click to Email</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="credit">
+        <span>Designed and Hand Coded by</span>
+        <a href="https://www.kalamazoowebsitedesign.com" target="_blank" rel="noopener">Kalamazoo Website Design</a>
+        <span class="copyright"> Copyright 2025 - Present</span>
+    </div>
+</footer>
+
+        <script defer src="/assets/js/nav.js"></script>
+        <script defer src="/assets/js/dark.js"></script>
+
+        <!--
+        This script adds a class to the body after scrolling 100px
+        and we used these body.scroll styles to create some on scroll 
+        animations with the navbar
+    -->
+        <script defer>
+            document.addEventListener('scroll', (e) => {
+                const scroll = document.documentElement.scrollTop;
+                if (scroll >= 100) {
+                    document
+                        .querySelector('body')
+                        .classList
+                        .add('scroll')
+                } else {
+                    document
+                        .querySelector('body')
+                        .classList
+                        .remove('scroll')
+                }
+            });
+        </script>
+
+    </body>
+</html>

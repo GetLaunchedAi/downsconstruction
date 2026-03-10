@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <url>
+    <loc>https://downsconstructionllc.com/</loc>
+    <lastmod>2026-03-10T14:59:19.034Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://downsconstructionllc.com/about\index/</loc>
+    <lastmod>2026-03-10T14:59:19.035Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+  <url>
+    <loc>https://downsconstructionllc.com/additions\index/</loc>
+    <lastmod>2026-03-10T14:59:19.039Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+  <url>
+    <loc>https://downsconstructionllc.com/admin\index/</loc>
+    <lastmod>2026-03-10T14:59:19.025Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+  <url>
+    <loc>https://downsconstructionllc.com/blog\another-test-post\index/</loc>
+    <lastmod>2026-03-10T14:59:19.221Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+  <url>
+    <loc>https://downsconstructionllc.com/blog\blog-template\index/</loc>
+    <lastmod>2026-03-10T14:59:19.222Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+  <url>
+    <loc>https://downsconstructionllc.com/blog\index/</loc>
+    <lastmod>2026-03-10T14:59:19.036Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+  <url>
+    <loc>https://downsconstructionllc.com/contact\index/</loc>
+    <lastmod>2026-03-10T14:59:19.037Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+  <url>
+    <loc>https://downsconstructionllc.com/general-contracting\index/</loc>
+    <lastmod>2026-03-10T14:59:19.040Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+  <url>
+    <loc>https://downsconstructionllc.com/pole-barns\index/</loc>
+    <lastmod>2026-03-10T14:59:19.041Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+  <url>
+    <loc>https://downsconstructionllc.com/projects\index/</loc>
+    <lastmod>2026-03-10T14:59:19.038Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+  <url>
+    <loc>https://downsconstructionllc.com/renovations\index/</loc>
+    <lastmod>2026-03-10T14:59:19.042Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+  <url>
+    <loc>https://downsconstructionllc.com/services\index/</loc>
+    <lastmod>2026-03-10T14:59:19.038Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+</urlset>
